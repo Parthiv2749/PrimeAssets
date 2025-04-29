@@ -1,0 +1,17 @@
+/* .MainDiv{
+    display: flex;
+    
+} */
+
+.MainDiv{
+    display: flex;
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 92vh;
+}
+
+.ComponentView{
+    width: 100%;
+    /* margin-bottom: -2px; */
+    /* background-color: blue; */
+}

@@ -1,0 +1,37 @@
+.nav-custom{
+  display: flex;
+  background-color: hsl(0, 0%, 10%);
+  max-height: 6vh;
+}
+
+.login{
+  margin-left: auto;
+  margin-right: 5px;
+}
+/* Hide the default dropdown arrow */
+.no-arrow::after {
+  display: none !important; /* Remove the arrow that React-Bootstrap adds */
+  /* background-color: rgb(255, 255, 255); */
+}
+
+/* Ensure the button fits exactly to the icon */
+.exact-fit {
+  padding: 0; /* Remove extra padding around the icon */
+  border: none; /* Remove border */
+  /* background-color: rgb(57, 132, 197); */
+  background-color: rgb(255, 255, 255);
+  /* background: transparent; Make the background transparent */
+  display: inline-flex; /* Ensures button fits the icon */
+  align-items: center; /* Vertically center the icon */
+  justify-content: center; /* Horizontally center the icon */
+}
+
+/* .remove-back{
+  color: rgba(255, 255, 255, 0);
+  background-color: rgba(0, 0, 0, 0);
+} */
+
+.exact-fit svg {
+  display: block; /* Ensures the icon fills the button */
+  margin: 0; /* Remove any margin around the icon */
+}
